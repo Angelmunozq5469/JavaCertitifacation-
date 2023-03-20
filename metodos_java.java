@@ -18,7 +18,9 @@ public class metodos_java {
         System.out.println(areacalcular(2, 4));
         System.out.println("########################");
         System.out.println(lados(3, 20));
-        System.out.println(lados(3));
+        System.out.println(lados(3));    
+        new esprimo(); 
+
 
     }
     public static void loop() {
@@ -60,7 +62,7 @@ public class metodos_java {
         
     }
     
-}
+
 
 /*
  * Cuando hablamos de metodo estos viene a compañados de algo sumamente importante
@@ -83,3 +85,32 @@ public class metodos_java {
  * 
  *
  */
+
+ /*
+  * Para explicar con un ejemplo ilustrativo como funciona los metodos dentro de un programa simple veremos un ejercicio que nos permitira saber 
+  si un numero es primo.
+
+  
+
+  */
+        public static class esprimo{
+            public esprimo(){
+
+                int a = 1324;
+                int iden;
+                boolean esprimo= true;
+                for (int i =2; i<=a/2; i++){
+                    iden= a%i;
+                    if (iden == 0){
+                        esprimo=false;
+                        break;
+                    }
+                }
+                if(esprimo)
+                    System.out.println("es primo");
+                else
+                    System.out.println("no es primo");
+
+            }
+        }
+}
