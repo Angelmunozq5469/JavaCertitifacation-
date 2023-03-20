@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Statemebts_codeblocks",
+            "request": "launch",
+            "mainClass": "Statemebts_codeblocks",
+            "projectName": "Curso Java_7ec527f0"
+        },
+        {
+            "type": "java",
             "name": "ejercicio_metodos",
             "request": "launch",
             "mainClass": "ejercicio_metodos",
