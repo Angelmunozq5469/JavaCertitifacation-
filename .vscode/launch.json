@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "car",
+            "request": "launch",
+            "mainClass": "Java_orientado_a_objetos.car",
+            "projectName": "Curso Java_7ec527f0"
+        },
+        {
+            "type": "java",
             "name": "Statemebts_codeblocks",
             "request": "launch",
             "mainClass": "Statemebts_codeblocks",
