@@ -4,11 +4,11 @@ public class car {
 
     public static void main(String[] args) {
         Clases clase = new Clases();
-        clase.setDoor("close");
+        clase.setDoor("closed");
         clase.setEngine("on");
-        clase.setSpeed(2);
+        clase.setSpeed(10);
         clase.setdriver("seated");
-        clase.run();
+        System.out.println(clase.run());
 
     }
     

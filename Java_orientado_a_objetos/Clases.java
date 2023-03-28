@@ -48,6 +48,7 @@ public class Clases {
     public String run() {
         if (doors.equals("closed") && Engine.equals("on") &&
                 driver.equals("seated") && speed>0){
+                    System.out.println("running");
 
         }else
             return "not running";
