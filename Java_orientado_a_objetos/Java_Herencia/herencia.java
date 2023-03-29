@@ -6,4 +6,5 @@ public class herencia {
 /*En herencia hay varios tipos de Herencia simple, 
  * Herencia gerarquica, herencia hibrida, herencia multinivel
  *
+ * Ejercicio explicativo sobre Herencia
 */
