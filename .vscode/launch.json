@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "output.app",
+            "projectName": "Curso Java_7ec527f0"
+        },
+        {
+            "type": "java",
             "name": "Shop",
             "request": "launch",
             "mainClass": "Inner.Shop",
