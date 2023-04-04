@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Shop",
+            "request": "launch",
+            "mainClass": "Inner.Shop",
+            "projectName": "Curso Java_7ec527f0"
+        },
+        {
+            "type": "java",
             "name": "Hello$Main",
             "request": "launch",
             "mainClass": "Animal.Hello$Main",
