@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyClass",
+            "request": "launch",
+            "mainClass": "javastaticvariable.MyClass",
+            "projectName": "Curso Java_7ec527f0"
+        },
+        {
+            "type": "java",
             "name": "app",
             "request": "launch",
             "mainClass": "output.app",
