@@ -20,9 +20,13 @@ public class MyClass {
     }
 }
 
-/*In Java, a static variable is a variable that is shared across all instances of a class, rather than being specific to each instance. It belongs to the class itself, rather than any individual object that is created from the class.
+/*In Java, a static variable is a variable that is shared across all instances of a class, 
+rather than being specific to each instance. It belongs to the class itself, rather than any 
+individual object that is created from the class.
 
-For example, let's say you have a class called "Person". Each instance of Person might have attributes like "name", "age", and "height". If you make the "height" attribute a static variable, then every Person object you create will share the same "height" value.
+For example, let's say you have a class called "Person". Each instance of Person might have attributes 
+like "name", "age", and "height". If you make the "height" attribute a static variable, then every Person
+ object you create will share the same "height" value.
  This means that if you change the "height"
   value for one object, it will change for all
    other objects as well.
