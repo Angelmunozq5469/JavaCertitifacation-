@@ -1,4 +1,4 @@
-public class app {
+public class excepciones {
     public static void main(String[] args) {
         int x=0;
 
