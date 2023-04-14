@@ -9,3 +9,10 @@ public class throwe {
         
     }
 }
+
+
+/*
+ * throw es una manera de decirle a el programa donde hay una excepcion o un error que nos diga cual
+ * es en resumen, la palabra clave throw se utiliza para lanzar una
+ *  excepción en Java creando una instancia de un objeto de excepción y lanzándola a continuación
+ */
