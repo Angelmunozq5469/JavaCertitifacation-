@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "throwe",
+            "request": "launch",
+            "mainClass": "throwe",
+            "projectName": "Curso Java_7ec527f0"
+        },
+        {
+            "type": "java",
             "name": "string",
             "request": "launch",
             "mainClass": "string",
