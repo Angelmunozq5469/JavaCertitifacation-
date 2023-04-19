@@ -5,6 +5,7 @@ public class array {
         int [] intvatiable = {1,2,3,4,5,6,7,8,9,10};
         System.out.print(intvatiable[1]);
         System.out.println(new arraywithloop());
+        System.out.println(new nuevoloop());
     }
 
     public static class arraywithloop {
@@ -21,6 +22,16 @@ public class array {
 
         }
         
+    }
+
+    public static class nuevoloop {
+
+        public nuevoloop(){
+            String[] nombres = {"Laura","Juliana","Federico","Marcela"};
+            for(String nombress: nombres){
+                System.out.println(nombress);
+            }
+        }
     }
         
 }
