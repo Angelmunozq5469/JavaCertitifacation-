@@ -1,4 +1,4 @@
-package CollectionFramework
+package CollectionFramework();
 
 
 public class frameworkcollection{
