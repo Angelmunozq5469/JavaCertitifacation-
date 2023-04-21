@@ -8,8 +8,13 @@ public class frameworkcollection{
     public static void main(String[] args) {
         
         myArrayList.add("dsadd");
+        myArrayList.add("gggg");
+
+        myArrayList.remove("gggg");
+        System.out.println(myArrayList);
 
     }
+    
 }
 
 
