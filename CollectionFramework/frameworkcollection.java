@@ -1,9 +1,14 @@
 package CollectionFramework;
+import java.util.ArrayList;
 
 
 public class frameworkcollection{
+
+    static ArrayList<String> myArrayList = new ArrayList<String>();
     public static void main(String[] args) {
         
+        myArrayList.add("dsadd");
+
     }
 }
 
