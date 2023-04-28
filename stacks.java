@@ -24,3 +24,6 @@ public class stacks {
 }
 
 
+/*
+ * En este caso tenemos una nota muy importante lo cual consiste en 
+ */
