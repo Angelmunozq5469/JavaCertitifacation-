@@ -41,4 +41,21 @@ Here is an example of how to use the LinkedList class to create and manipulate a
  * 
  */
 
- 
+ import java.util.LinkedList;
+
+public class LinkedListExample {
+    public static void main(String[] args) {
+        LinkedList<String> list = new LinkedList<>();
+
+        list.add("apple");
+        list.add("banana");
+        list.add("cherry");
+
+        System.out.println(list); // [apple, banana, cherry]
+
+        list.removeFirst();
+        list.addLast("date");
+
+        System.out.println(list); // [banana, cherry, date]
+    }
+}

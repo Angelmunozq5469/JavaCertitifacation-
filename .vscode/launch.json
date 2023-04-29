@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedListExample",
+            "request": "launch",
+            "mainClass": "LinkedListExample",
+            "projectName": "Curso Java_7ec527f0"
+        },
+        {
+            "type": "java",
+            "name": "stacks",
+            "request": "launch",
+            "mainClass": "stacks",
+            "projectName": "Curso Java_7ec527f0"
+        },
+        {
+            "type": "java",
             "name": "frameworkcollection",
             "request": "launch",
             "mainClass": "CollectionFramework.frameworkcollection",
