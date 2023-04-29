@@ -59,7 +59,3 @@ public class LinkedListExample {
         System.out.println(list); // [banana, cherry, date]
     }
 }
-fdfsfsdfsfdffesdefsdfsfdfdwefef
-asdafsfdg
-gfvfb
-dvev
