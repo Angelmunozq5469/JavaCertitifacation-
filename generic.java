@@ -1,4 +1,7 @@
 public class generic {
+    List myCollection = new ArrayList();
+    List<String> myCollection = new ArrayList<String>();
+
     
 }
 
