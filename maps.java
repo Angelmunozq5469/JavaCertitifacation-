@@ -18,4 +18,8 @@ on the natural order of their keys (or a custom comparator, if provided).
  order based on the order in which the elements were added to the map. 
  It also provides constant-time performance for the basic operations, 
  although its performance is slightly slower than that of the HashMap.
+
+ ConcurrentHashMap: This implementation is optimized for concurrent access 
+ from multiple threads and provides
+  better scalability than the other implementations in multi-threaded environments.
  */
