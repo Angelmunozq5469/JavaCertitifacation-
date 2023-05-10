@@ -26,5 +26,9 @@ Static synchronized methods are synchronized on the class itself, not on the ins
 the class. This means that when a thread calls a static synchronized method, it acquires a 
 lock on the class and prevents any other thread from accessing any other static synchronized 
 method of that class until the lock is released.
+
+NOTA IMPORTANTE: ES DE ALTA IMPORTANCIA CONOCER EL TEMA DE LOS METODOS EN CUANTOS A LOS HILOS
+PUESTO QUE EN TEMA DE OPTIMIZACION Y COMO UTILIZAN LOS PROGRAMAS ESTOS HILOS PARA EJECUTAR LOS 
+PROGRAMAS MAS RAPIDO ES IMPORTANTE.
      */
 }
