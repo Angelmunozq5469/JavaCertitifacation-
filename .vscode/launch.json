@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "multithreading.Example",
+            "projectName": "Curso Java_7ec527f0"
+        },
+        {
+            "type": "java",
             "name": "LinkedListExample",
             "request": "launch",
             "mainClass": "LinkedListExample",
