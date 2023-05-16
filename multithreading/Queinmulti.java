@@ -10,7 +10,7 @@ public class Example {
         BlockingQueue<String> queue = new ArrayBlockingQueue<>(10);
 
         // Create producer and consumer threads
-        Thread producerThread = new Thread(new Producer(queue));
+        Thread producerThread = new Thread(new Producer(queu));
         Thread consumerThread = new Thread(new Consumer(queue));
 
         // Start the threads
