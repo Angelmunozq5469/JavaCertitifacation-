@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lamda",
+            "request": "launch",
+            "mainClass": "lamdaexpressionjava.lamda",
+            "projectName": "Curso Java_7ec527f0"
+        },
+        {
+            "type": "java",
             "name": "Example",
             "request": "launch",
             "mainClass": "multithreading.Example",
