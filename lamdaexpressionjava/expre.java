@@ -29,3 +29,18 @@ public class expre {
     }
 }
 
+/*
+ * The numbers list is created with some sample data. 
+ * These numbers will be processed concurrently.
+The numbers list is converted into a parallel stream using parallelStream(). 
+This allows the subsequent operations to be executed concurrently across multiple threads.
+The map operation is applied to each number in the stream. Inside the map function, a
+ CompletableFuture.supplyAsync method is called, which executes the processNumber 
+ method asynchronously. This means that each number will be processed concurrently.
+The map operation returns a stream of CompletableFuture objects. 
+The CompletableFuture::join method is then applied to each CompletableFuture to obtain the result.
+Finally, the forEach operation is used to print the result for each processed number.
+ * 
+ * 
+ * 
+ */
