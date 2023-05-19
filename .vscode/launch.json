@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prericate",
+            "request": "launch",
+            "mainClass": "lamdaexpressionjava.prericate",
+            "projectName": "Curso Java_7ec527f0"
+        },
+        {
+            "type": "java",
             "name": "expre",
             "request": "launch",
             "mainClass": "lamdaexpressionjava.expre",
