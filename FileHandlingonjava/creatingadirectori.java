@@ -24,6 +24,12 @@ public interface creatingadirectori {
 
             BufferedWriter bw = new BufferedWriter(new FileWriter(file));
 
+            /*
+             * Scanner vs Buffered reader
+             * 
+             * Scanner is more slow and Buffered has a better  performance
+             * Scanner is for small files anad Buffered reader is for large files.
+             */
         }
     }
     
