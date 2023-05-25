@@ -4,3 +4,5 @@ Servlets y Tomcat.
 
 El ciclo de vida de Servlets para crear la web app es cargar la clase servlets, crear la instancia de 
 servlet, hacer el init con servlet, llamar el servicio de servlets service() method and destroy() method
+
+Investigacion JSP, servlet and Tomcat o maven for web page
