@@ -11,7 +11,7 @@ Intrucciones de instalacion:
 1. Instalar Java JDK paquete completo para desarrollo con Java (JDK, Java, Maven, Tomcat)
 2. Instalar maven
 3. Instalar Tomcat (./startup.sh)
-4. Configurar visualstudio
+4. Configurar visualstudio (video: https://www.youtube.com/watch?v=T33X5lPYWS4)
 
 
 /Users/angelemilio/Documents/Curso Java/JavaJSPandServlets/Aplicacion.txt
