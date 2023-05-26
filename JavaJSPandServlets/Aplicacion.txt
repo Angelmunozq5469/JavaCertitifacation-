@@ -8,6 +8,9 @@ servlet, hacer el init con servlet, llamar el servicio de servlets service() met
 Investigacion JSP, servlet and Tomcat o maven for web page
 
 Intrucciones de instalacion:
-1. Instalar Java JDK paquete completo para desarrollo con Java
+1. Instalar Java JDK paquete completo para desarrollo con Java (JDK, Java, Maven, Tomcat)
 2. Instalar maven
 3. Instalar Tomcat
+
+
+/Users/angelemilio/Documents/Curso Java/JavaJSPandServlets/Aplicacion.txt
