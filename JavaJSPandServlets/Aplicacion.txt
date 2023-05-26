@@ -10,7 +10,8 @@ Investigacion JSP, servlet and Tomcat o maven for web page
 Intrucciones de instalacion:
 1. Instalar Java JDK paquete completo para desarrollo con Java (JDK, Java, Maven, Tomcat)
 2. Instalar maven
-3. Instalar Tomcat
+3. Instalar Tomcat (./startup.sh)
+4. Configurar visualstudio
 
 
 /Users/angelemilio/Documents/Curso Java/JavaJSPandServlets/Aplicacion.txt
