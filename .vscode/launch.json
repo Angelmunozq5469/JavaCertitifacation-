@@ -1,0 +1,245 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Hello$Main",
+            "request": "launch",
+            "mainClass": "Animal.Hello$Main",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "Array.array",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "Break_continue",
+            "request": "launch",
+            "mainClass": "Break_continue",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "frameworkcollection",
+            "request": "launch",
+            "mainClass": "CollectionFramework.frameworkcollection",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Composicion.Hello",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "Example",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "creatingadirectori",
+            "request": "launch",
+            "mainClass": "FileHandlingonjava.creatingadirectori",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "creatingfileondisk",
+            "request": "launch",
+            "mainClass": "FileHandlingonjava.creatingfileondisk",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "Shop",
+            "request": "launch",
+            "mainClass": "Inner.Shop",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "car",
+            "request": "launch",
+            "mainClass": "Java_orientado_a_objetos.car",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListExample",
+            "request": "launch",
+            "mainClass": "LinkedListExample",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "Loops_en_java",
+            "request": "launch",
+            "mainClass": "Loops_en_java",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "MyCounter$App",
+            "request": "launch",
+            "mainClass": "MyCounter$App",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "Operacion_Aritmeticas",
+            "request": "launch",
+            "mainClass": "Operacion_Aritmeticas",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "Primer_programa",
+            "request": "launch",
+            "mainClass": "Primer_programa",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "Statemebts_codeblocks",
+            "request": "launch",
+            "mainClass": "Statemebts_codeblocks",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "excepciones",
+            "request": "launch",
+            "mainClass": "excepciones",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "MyClass",
+            "request": "launch",
+            "mainClass": "javastaticvariable.MyClass",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "expre",
+            "request": "launch",
+            "mainClass": "lamdaexpressionjava.expre",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "lamda",
+            "request": "launch",
+            "mainClass": "lamdaexpressionjava.lamda",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "prericate",
+            "request": "launch",
+            "mainClass": "lamdaexpressionjava.prericate",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "loops_anidados",
+            "request": "launch",
+            "mainClass": "loops_anidados",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "maps",
+            "request": "launch",
+            "mainClass": "maps",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "metodos_java",
+            "request": "launch",
+            "mainClass": "metodos_java",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "operaciones_Switch",
+            "request": "launch",
+            "mainClass": "operaciones_Switch",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "output.app",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "queue$Example",
+            "request": "launch",
+            "mainClass": "queue$Example",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "sorting",
+            "request": "launch",
+            "mainClass": "sorting",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "stacks",
+            "request": "launch",
+            "mainClass": "stacks",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "string",
+            "request": "launch",
+            "mainClass": "string",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "throwe",
+            "request": "launch",
+            "mainClass": "throwe",
+            "projectName": "CursoJava_a9539af4"
+        },
+        {
+            "type": "java",
+            "name": "wrap",
+            "request": "launch",
+            "mainClass": "wrap",
+            "projectName": "CursoJava_a9539af4"
+        }
+    ]
+}
