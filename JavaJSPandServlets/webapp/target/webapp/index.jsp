@@ -1,14 +1,9 @@
 <html>
 <body>
-<h2>Hello Worl</h2>
+<h2>Indice</h2>
 
-    <%
-        int x= 52;
-    >%
-
-<%= x %>
-
-<%out.print(new java.util.Date()); %>
+Este es el Index <br/>
+<a href="<%=request.getContextPath() %>/ControLLer?page=Login">Login</a><br/>
 
 
 </body>
