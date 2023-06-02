@@ -8,7 +8,7 @@
 
 <%= x %>
 
-<% out.print(new java.util.Date()); %>
+<%out.print(new java.util.Date()); %>
 
 
 </body>
