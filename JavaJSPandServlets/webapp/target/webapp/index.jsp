@@ -15,5 +15,11 @@ Este es el Index <br/>
     Nombre completo: <input type="text" name="name"/><br><br/>
     Genero: <input type="radio" genero="genero" value="Hombre"/>Hombre 
     <input type="radio" genero="genero" value="Mujer"/>Mujer<br><br/>
+    Lenguages: <input type="checkbox" lenguage="lenguage" value="Frances"/>Frances
+    <input type="checkbox" lenguage="lenguage" value="Ingles"/>Ingles
+    <input type="checkbox" lenguage="lenguage" value="Aleman"/>Aleman<br><br/>
+    
+    
+
             
 </html>
