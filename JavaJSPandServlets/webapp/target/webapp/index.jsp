@@ -23,7 +23,8 @@ Este es el Index <br/>
             <option value="New York">New York</option>
             <option value="Medellin">Medellin</option>
             </select><br/>
-            <input type="submit" value="Submit">
+            <br><br/>
+            <input type="Guardar" value="Guardar">
     
 </form>
 
