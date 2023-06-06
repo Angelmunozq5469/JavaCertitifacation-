@@ -18,8 +18,14 @@ Este es el Index <br/>
     Lenguages: <input type="checkbox" lenguage="lenguage" value="Frances"/>Frances
     <input type="checkbox" lenguage="lenguage" value="Ingles"/>Ingles
     <input type="checkbox" lenguage="lenguage" value="Aleman"/>Aleman<br><br/>
+    Ciudades: <select name="Ciudades">
+            <option value="Pereira">Colombia</option>
+            <option value="New York">New York</option>
+            <option value="Medellin">Medellin</option>
+            </select><br/>
+            <input type="submit" value="Submit">
     
-    
+</form>
 
             
 </html>
