@@ -30,3 +30,6 @@ Este es el Index <br/>
 
             
 </html>
+
+In Java, "Beans" refers to Java objects that are managed by a framework, typically a Java Bean framework such as Spring Framework. Java Beans are POJOs (Plain Old Java Objects) that follow certain conventions, such as having a default constructor, private fields with public getter and setter
+ methods (accessors), and implementing Serializable interface, among others. These conventions allow Java Beans to be easily manipulated and integrated with other components in a Java application.
