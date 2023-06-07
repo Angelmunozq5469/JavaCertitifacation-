@@ -12,7 +12,7 @@ Este es el Index <br/>
 <br>
 <br/>
 <form action="submit.jsp" method="get">
-    Nombre completo: <input type="text" name="name"/><br><br/>
+    Nombre completo: <input type="text" name="name" required/><br><br/>
     Genero: <input type="radio" genero="genero" value="Hombre"/>Hombre 
     <input type="radio" genero="genero" value="Mujer"/>Mujer<br><br/>
     Lenguages: <input type="checkbox" lenguage="lenguage" value="Frances"/>Frances
@@ -24,7 +24,7 @@ Este es el Index <br/>
             <option value="Medellin">Medellin</option>
             </select><br/>
             <br><br/>
-            <input type="Guardar" value="Guardar">
+            <input type="submit" value="Guardar">
     
 </form>
 
