@@ -7,6 +7,6 @@
 <title>Hello wored</title>
 </head>
 <body>
-<h1>Hola mundo desde Eclipse jje</h1>
+<h1>Hola mundo desde Eclipse</h1>
 </body>
 </html>
