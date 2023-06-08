@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Hello wored</title>
+<title>Webpage</title>
 </head>
 <body>
-<h1>Hola mundo desde Eclipse</h1>
+<h1>Index</h1>
 </body>
 </html>
