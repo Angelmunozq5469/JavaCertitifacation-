@@ -4,11 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Home</title>
+<title>Estoy en login</title>
 </head>
 <body>
-<h1>Index</h1>
-<br></br>
-<a href = "<%=request.getContextPath() %>/Controller?page=Login>">login</a>
+Login
 </body>
 </html>
