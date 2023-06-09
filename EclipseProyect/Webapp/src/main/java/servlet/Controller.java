@@ -28,7 +28,7 @@ public class Controller extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String param = request.getParameter("page");
 		if(param.equals("login")) {
-			getServletContext().getRequestDispatcher("/Login.jps").forward(request, response);
+			getServletContext().getRequestDispatcher("/login.jps").forward(request, response);
 		}
 		
 	}

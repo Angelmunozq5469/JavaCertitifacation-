@@ -9,6 +9,6 @@
 <body>
 <h1>Index</h1>
 <br></br>
-<a href = "<%=request.getContextPath() %>/Controller?page=Login>">login</a>
+<a href = "<%=request.getContextPath() %>/Controller?page=login>">login</a>
 </body>
 </html>
