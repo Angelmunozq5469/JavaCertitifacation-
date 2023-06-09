@@ -27,13 +27,14 @@ public class Controller extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String param = request.getParameter("page");
-		if(param.equals("login")) {
-			getServletContext().getRequestDispatcher("/index.jps").forward(request, response);
-		} else if(param.equals("signup")){
-			getServletContext().getRequestDispatcher("/SingUp.jsp").forward(request, response);
-		}
+		if (param.equalsIgnoreCase("login")) {
+			getServletContext().getRequestDispatcher("/login.jsp").forward(request, response);
+		} 
+		
 		
 	}
 
 
 }
+
+
