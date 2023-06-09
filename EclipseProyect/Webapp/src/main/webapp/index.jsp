@@ -10,5 +10,6 @@
 <h1>Index</h1>
 <br></br>
 <a href = "<%=request.getContextPath() %>/Controller?page=login>">login</a>
+<a href = "<%=request.getContextPath() %>/Controller?page=SingUp>">signup</a>
 </body>
 </html>
