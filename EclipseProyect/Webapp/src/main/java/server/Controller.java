@@ -14,7 +14,13 @@ public class Controller extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.sendRedirect(request.getContextPath() + "/login.jsp");
+    	String page = request.getParameter("page");
+    	if (page.equals("login")) {
+    		response.sendRedirect(request.getContextPath() + "/login.jsp");
+    		
+    	}
+
     }
+    	
 }
 
