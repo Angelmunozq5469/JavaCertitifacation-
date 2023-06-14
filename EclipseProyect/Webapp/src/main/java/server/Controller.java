@@ -18,7 +18,9 @@ public class Controller extends HttpServlet {
     	if(page.equals("login")) {
     		response.sendRedirect(request.getContextPath() + "/login.jsp");
     	}else if(page.equals("singup")){
-    		response.sendRedirect(request.getContextPath() + "/SingUp");
+    		response.sendRedirect(request.getContextPath() + "/SingUp.jsp");
+    	}else{
+    		response.sendRedirect(request.getContextPath() + "/NoFound.jsp");
     	}
 
     	
