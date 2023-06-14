@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Nofound</title>
+<title>No-found</title>
 </head>
 <body>
 <h1>ACA DEBERIA DE IR TODO DE NO ENCONTRADO</h1>
