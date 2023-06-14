@@ -16,9 +16,9 @@ public class Controller extends HttpServlet {
             throws ServletException, IOException {
     	String page = request.getParameter("page");
     	if(page.equals("login")) {
-    		response.sendRedirect(request.getContextPath() + "/login.jsp");
+    		response.sendRedirect(request.getContextPath() + "/login.jsp"); //buena practica para enviar a otra pagina
     	}else if(page.equals("singup")){
-    		getServletContext().getRequestDispatcher("/SingUp.jsp").forward(request, response);
+    		getServletContext().getRequestDispatcher("/SingUp.jsp").forward(request, response); // buena practica para enviar desde el mismo programa a otra clase obcjeto
     	}else{
     		getServletContext().getRequestDispatcher("/NoFound.jsp").forward(request, response);
     	}
