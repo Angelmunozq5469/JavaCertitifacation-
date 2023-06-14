@@ -17,6 +17,8 @@ public class Controller extends HttpServlet {
     	String page = request.getParameter("page");
     	if(page.equals("login")) {
     		response.sendRedirect(request.getContextPath() + "/login.jsp");
+    	}else if(page.equals("singup")){
+    		response.sendRedirect(request.getContextPath() + "/SingUp");
     	}
 
     	
