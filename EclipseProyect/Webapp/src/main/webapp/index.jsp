@@ -8,7 +8,7 @@
 <body>
 <h1>Index</h1>
 <br></br>
-<a href="<%=request.getContextPath() %>/Controller?page=login">login</a><br></br>
-<a href="<%=request.getContextPath() %>/Controller?page=singup">singup</a>
+<a href="<%=request.getContextPath() %>/Controller?page=login">Login</a><br></br>
+<a href="<%=request.getContextPath() %>/Controller?page=singup">Sin Up</a>
 </body>
 </html>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Estoyelogin</title>
+<title>Bienvenido</title>
 </head>
 <body>
 <h1>ACA VOY</h1>
