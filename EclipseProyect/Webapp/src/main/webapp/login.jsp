@@ -7,6 +7,10 @@
 <title>Bienvenido</title>
 </head>
 <body>
-<h1>ACA VOY</h1>
+<form>
+Usuario: <input type="text" name= "username"><br/>
+Contraseña: <input type="password" name= "password"><br/>
+<input type="submit" value="submit">
+</form>
 </body>
 </html>
