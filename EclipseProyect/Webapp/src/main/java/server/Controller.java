@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 public class Controller extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
     	String username = request.getParameter("username");
     	String password = request.getParameter("password");
@@ -27,9 +27,9 @@ public class Controller extends HttpServlet {
     		request.getSession().invalidate();
     		HttpSession newSession = request.getSession(true);
     		newSession.setMaxInactiveInterval(300);
-    		response.sendRedirect(request.getContextPath()+ "/inicio.jsp");
+    		response.sendRedirect(request.getContextPath() + "/inicio.jsp");
     	}else{
-    		getServletContext().getRequestDispatcher("/NoFound.jsp").forward(request, response);
+    		response.sendRedirect(request.getContextPath() + "/NoFound.jsp");
     	}
     	
 
