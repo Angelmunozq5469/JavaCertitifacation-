@@ -22,7 +22,7 @@ public class Controller extends HttpServlet {
     	}else if(page.equals("singup")){
     		getServletContext().getRequestDispatcher("/SingUp.jsp").forward(request, response); // buena practica para enviar desde el mismo programa a otra clase obcjeto
     		
-    	}else if(username.equals("angelemilio")){
+    	}else if(username.equals("angelemilio") && password.equals("gato123")){
     		response.sendRedirect(request.getContextPath()+ "/inicio.jsp");
     	}else{
     		getServletContext().getRequestDispatcher("/NoFound.jsp").forward(request, response);
