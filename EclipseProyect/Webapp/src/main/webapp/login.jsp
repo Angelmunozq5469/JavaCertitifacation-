@@ -7,7 +7,7 @@
 <title>Bienvenido</title>
 </head>
 <body>
-<form>
+<form action="<%= request.getContextPath()%>/Controller" method="post">
 Usuario: <input type="text" name= "username"><br/>
 Contraseña: <input type="password" name= "password"><br/>
 <input type="submit" value="submit">

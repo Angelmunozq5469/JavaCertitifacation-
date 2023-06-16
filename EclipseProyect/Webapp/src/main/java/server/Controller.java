@@ -14,11 +14,16 @@ public class Controller extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+    	String username = request.getParameter("username");
+    	String password = request.getParameter("password");
     	String page = request.getParameter("page");
     	if(page.equals("login")) {
     		response.sendRedirect(request.getContextPath() + "/login.jsp"); //buena practica para enviar a otra pagina
     	}else if(page.equals("singup")){
     		getServletContext().getRequestDispatcher("/SingUp.jsp").forward(request, response); // buena practica para enviar desde el mismo programa a otra clase obcjeto
+    		
+    	}else if(username.equals("angelemilio")){
+    		response.sendRedirect(request.getContextPath()+ "/inicio.jsp");
     	}else{
     		getServletContext().getRequestDispatcher("/NoFound.jsp").forward(request, response);
     	}
