@@ -6,6 +6,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 
 @WebServlet("/Controller")
@@ -23,6 +24,9 @@ public class Controller extends HttpServlet {
     		getServletContext().getRequestDispatcher("/SingUp.jsp").forward(request, response); // buena practica para enviar desde el mismo programa a otra clase obcjeto
     		
     	}else if(username.equals("angelemilio") && password.equals("gato123")){
+    		request.getSession().invalidate();
+    		HttpSession newSession = request.getSession(true);
+    		newSession.setMaxInactiveInterval(300);
     		response.sendRedirect(request.getContextPath()+ "/inicio.jsp");
     	}else{
     		getServletContext().getRequestDispatcher("/NoFound.jsp").forward(request, response);
