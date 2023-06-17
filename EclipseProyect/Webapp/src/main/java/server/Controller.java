@@ -36,6 +36,7 @@ public class Controller extends HttpServlet {
             request.getSession().invalidate();
             HttpSession newSession = request.getSession(true);
             newSession.setMaxInactiveInterval(300);
+            newSession.setAttribute("username", username);
             response.sendRedirect(request.getContextPath() + "/inicio.jsp");
         } else {
             response.sendRedirect("login.jsp");
