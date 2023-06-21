@@ -1,5 +1,4 @@
-package server;
-
+package server;//servlet filter es para no estar validando dentro de una session algun tema este valida a nivel global segun la referencia del controlador que pongas funciona como un trigger
 import java.io.IOException;
 import javax.servlet.FilterChain;
 import javax.servlet.FilterConfig;
