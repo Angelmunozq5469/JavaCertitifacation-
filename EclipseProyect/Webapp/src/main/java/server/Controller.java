@@ -37,7 +37,10 @@ public class Controller extends HttpServlet {
             HttpSession newSession = request.getSession(true);
             newSession.setMaxInactiveInterval(300);
             newSession.setAttribute("username", username );
-            response.sendRedirect(request.getContextPath() + "/inicio.jsp");
+            String encode = response.encodeRedirectURL(request.getContextPath()); //hacer un el code del URL son buenas practicas ya que cuando el usuario bloquea los cookies nuestra pg web puede presentar fallos
+            //por ende es mejor esta prevenido adicionalmente le da un formato a el url mas limpio, mayor seguridad ya que es mas dificil copia ese Unique ID para seccion y modificarlo para cometer delitos
+            //en conclusion es tema de buena practica hacer la codificacion de ese URL.
+            response.sendRedirect(encode + "/inicio.jsp");
         } else {
             response.sendRedirect("login.jsp");
         }
