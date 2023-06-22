@@ -8,8 +8,11 @@
 <title>JSTL DEMO</title>
 </head>
 <body>
-<c:set var="name" value="Angel"></c:set>
-<c:out value="${name}"></c:out>
+<jsp:useBean id = "User" class="server.user" scope="page"></jsp:useBean>
+<c:out value="${User.getFirstname()}"></c:out>
+<c:set var="ojo" value="Ojito"></c:set>
+<c:out value="${ojo}"></c:out>
 
 </body>
 </html>
+
