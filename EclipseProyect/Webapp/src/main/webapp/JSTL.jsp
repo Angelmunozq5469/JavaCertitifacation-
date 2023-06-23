@@ -9,6 +9,8 @@
 </head>
 <body>
 <jsp:useBean id = "User" class="server.user" scope="page"></jsp:useBean>
+${User.lastname}
+${User.getLastname()}
 <c:out value="${User.getFirstname()}"></c:out>
 <c:set var="ojo" value="Ojito"></c:set>
 <c:out value="${ojo}"></c:out>
