@@ -22,3 +22,4 @@ ${User.getLastname()}
 //tenemos que saber que es un lenguage muy interpretativo por ejemplo para hacer las condiciones las hago "When"
 "otherwise", "choose" and "if" por otro lado me gustaria esta los loop que funcionan por "variable", "inicio" y "terminacion"
 
+tambien tenemos foreach para recorrer lista, diccionarios otros objetos 
