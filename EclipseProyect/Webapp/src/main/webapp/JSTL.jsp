@@ -18,3 +18,7 @@ ${User.getLastname()}
 </body>
 </html>
 
+//en este caso para JSTL TAG SE y JSP with Servlet se pueden hacer ciclos loop y Condicionales para esto 
+//tenemos que saber que es un lenguage muy interpretativo por ejemplo para hacer las condiciones las hago "When"
+"otherwise", "choose" and "if" por otro lado me gustaria esta los loop que funcionan por "variable", "inicio" y "terminacion"
+
