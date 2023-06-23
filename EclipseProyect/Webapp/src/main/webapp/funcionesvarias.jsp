@@ -7,6 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
+<!--
+Funciones del programa
+toLowerCase()
+toUpperCase()
+indexOf()
+replace()
+substring()
+substringBefore()
+substringAfter 
+ -->
 <br/>${fn:toUpperCase("angel")}
 <br/>${fn:toLowerCase("angel")}
 <br/>${fn:indexOf("angel","u")}
