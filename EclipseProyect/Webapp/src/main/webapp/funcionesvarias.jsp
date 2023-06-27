@@ -38,3 +38,11 @@ en la pagina oficial de JSP podemos agg, parse de data como la necesitemos hace 
 y la informacion necesaria y darle condicionales a esa informacion con la finalidad de generar tablas  -->
 
 ###HORARIOS SEGUN EL IDIOMA
+
+<!-- EN LA PAGINA WEB SE PUEDE DAR CIERTOS IDENTIFICADORES PARA CADA PAIS ESTO NOS FAVORECE PARA CAMBIAR EL IDIOMA
+CLARO ESTA QUE SE DEBE DE HACER DESDE UNA CLASE DANDO PROPIEDADES CON LOS LABELS POR EJEMPLON LABER.NOMBRE = NOMBRE
+EN INGLES LABER.NOMBRE = NAME Y ASI ASIGNAMOS PROPIEDADES -->
+
+#####Crear mi propio tag
+<!-- Podemos crear nuestro propio tag para llamar funciones desde una clase que estemos indicando para desarrollar
+ -->
