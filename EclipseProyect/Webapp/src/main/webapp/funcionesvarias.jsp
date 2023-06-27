@@ -32,3 +32,9 @@ substringAfter
 </body>
 </html>
 <!--los tags se que se inicializan por fn son tags de funciones por ejemplo:-->
+
+<!-- Tambien tenemos tags para manipular archivos xml con estos segun la libreria que elijamos que estan
+en la pagina oficial de JSP podemos agg, parse de data como la necesitemos hace bucles para recorrer el documento
+y la informacion necesaria y darle condicionales a esa informacion con la finalidad de generar tablas  -->
+
+###HORARIOS SEGUN EL IDIOMA
