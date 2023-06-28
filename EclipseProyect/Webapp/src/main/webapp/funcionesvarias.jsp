@@ -47,4 +47,20 @@ EN INGLES LABER.NOMBRE = NAME Y ASI ASIGNAMOS PROPIEDADES -->
 <!-- Podemos crear nuestro propio tag para llamar funciones desde una clase que estemos indicando para desarrollar
  -->
  
- <!-- servelet -->
+ <!-- A servlet is a Java-based component that runs on a web server and processes incoming requests and generates responses. It is part of the Java Servlet API, which provides a framework for building web applications in Java.
+
+Servlets are commonly used to handle dynamic web content, such as generating HTML pages, processing form data, interacting with databases, and more. They are the foundation of Java-based web applications and play a crucial 
+role in the Java EE (Enterprise Edition) platform.
+
+Servlets follow a lifecycle defined by the Servlet API, which includes methods such 
+as init(), service(), and destroy(). The init() method is called when the servlet is 
+initialized, the service() method handles the request and generates the response, and the 
+destroy() method is called when the servlet is about to be removed from service.
+
+Servlets can receive different types of HTTP requests, such as GET, POST, PUT, DELETE, etc., 
+and can access request parameters, headers, and other information. They can also use the Servlet API to 
+interact with the web server, such as forwarding requests to other servlets or sending HTTP responses.
+
+Servlets provide a powerful and flexible way to develop web applications in Java, allowing developers to create dynamic and interactive
+ web pages. They are widely used in various Java-based web frameworks and technologies, such as JavaServer Pages 
+ (JSP), JavaServer Faces (JSF), Spring MVC, and more. -->
