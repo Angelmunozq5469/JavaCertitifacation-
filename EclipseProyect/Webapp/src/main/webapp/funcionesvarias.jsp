@@ -78,6 +78,13 @@ Username
 varchar(45)
 Email
 varchar(45)
+.........................Query
+
+CREATE TABLE `java_db`.`User` (
+  `user_ID` INT NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`user_ID`));
  
  
  
