@@ -68,3 +68,23 @@ Servlets provide a powerful and flexible way to develop web applications in Java
  <!-- 
  La creacion de la DB fue en MySQL Workbench la cual se creo una db llamada java_db con una tabla user con un campo "userid" el cual tiene un auto incremento
  y es Primary Key -->>
+ 
+ Table: new_table
+
+Columns:
+user_id
+int AI PK
+Username
+varchar(45)
+Email
+varchar(45)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
