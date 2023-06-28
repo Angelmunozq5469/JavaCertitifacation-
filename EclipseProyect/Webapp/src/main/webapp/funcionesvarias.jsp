@@ -64,3 +64,7 @@ interact with the web server, such as forwarding requests to other servlets or s
 Servlets provide a powerful and flexible way to develop web applications in Java, allowing developers to create dynamic and interactive
  web pages. They are widely used in various Java-based web frameworks and technologies, such as JavaServer Pages 
  (JSP), JavaServer Faces (JSF), Spring MVC, and more. -->
+ ######Creacion de DataBase
+ <!-- 
+ La creacion de la DB fue en MySQL Workbench la cual se creo una db llamada java_db con una tabla user con un campo "userid" el cual tiene un auto incremento
+ y es Primary Key -->>
