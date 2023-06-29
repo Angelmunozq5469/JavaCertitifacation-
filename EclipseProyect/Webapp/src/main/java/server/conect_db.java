@@ -8,17 +8,16 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+import javax.sql.DataSource;
 
 @WebServlet("/conect_db")
 public class conect_db extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-	private Datasource dataSource;
-	@Resource(name="jdbc/project")
+    private static final long serialVersionUID = 1L;
+    @Resource(name="jdbc/project")
+    private DataSource dataSource;
        
-
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-	}
-
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // Use the dataSource object to establish a connection with the database
+        // ...
+    }
 }
