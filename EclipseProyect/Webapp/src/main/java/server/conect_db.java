@@ -1,6 +1,7 @@
 package server;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -24,6 +25,7 @@ public class conect_db extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Use the dataSource object to establish a connection with the database
         // 1. inicializar objetos de inicio
+    	PrintWriter out = response.getWriter();
     	Connection connect = null;
     	Statement stmt = null;
     	ResultSet rs = null;
@@ -37,7 +39,7 @@ public class conect_db extends HttpServlet {
     	  rs = ((java.sql.Statement) stmt).executeQuery(query);
       	// 4. Process the result set
     	  while(rs.next()) {
-    		  
+    		  out.print("<br/>" + rs.getString("email"));    		  
     	  }
     		
     	} catch (SQLException e) {
