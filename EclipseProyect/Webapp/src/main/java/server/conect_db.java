@@ -3,6 +3,7 @@ package server;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 import javax.annotation.Resource;
 import javax.servlet.ServletException;
@@ -26,6 +27,22 @@ public class conect_db extends HttpServlet {
     	Connection connect = null;
     	Statement stmt = null;
     	ResultSet rs = null;
+    	try {
+    	  connect = dataSource.getConnection();
+    	// 2. Create a SQL statements string
+    	  String query = "Select * from users";
+    	  stmt = (Statement) connect.createStatement();
+    	  
+      	// 3. Execute SQL query
+    	  rs = ((java.sql.Statement) stmt).executeQuery(query);
+      	// 4. Process the result set
+    	  while(rs.next()) {
+    		  
+    	  }
+    		
+    	} catch (SQLException e) {
+    		e.printStackTrace();
+    	}
     	
     	
     }
