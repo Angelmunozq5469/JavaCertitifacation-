@@ -1,6 +1,8 @@
 package server;
 
 import java.io.IOException;
+import java.sql.Statement;
+
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -14,7 +16,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 
-import com.mysql.cj.xdevapi.Statement;
 
 @WebServlet("/conect_db")
 public class conect_db extends HttpServlet {
@@ -32,7 +33,7 @@ public class conect_db extends HttpServlet {
     	try {
     	  connect = dataSource.getConnection();
     	// 2. Create a SQL statements string
-    	  String query = "Select * from users";
+    	  String query = "Select * from User";
     	  stmt = (Statement) connect.createStatement();
     	  
       	// 3. Execute SQL query
