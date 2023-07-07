@@ -40,7 +40,7 @@ public class conect_db extends HttpServlet {
     	  rs = ((java.sql.Statement) stmt).executeQuery(query);
       	// 4. Process the result set
     	  while(rs.next()) {
-    		  out.print("<br/>" + rs.getString("email"));    		  
+    		  out.print(rs.getString("email"));    		  
     	  }
     		
     	} catch (SQLException e) {
