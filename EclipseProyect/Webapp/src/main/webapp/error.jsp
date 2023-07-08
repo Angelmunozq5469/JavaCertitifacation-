@@ -1,12 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>No-found</title>
-</head>
-<body>
-<h1>ACA DEBERIA DE IR TODO DE NO ENCONTRADO</h1>
-</body>
-</html>
+<jsp:include page="/index.jsp" ></jsp:include>
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
+            <h1 style="margin-bottom: 100px;">Error page</h1>
+            <p style="margin-top: 10px;">Error page</p>
+        </div>
+    </div>
+</div>
+
