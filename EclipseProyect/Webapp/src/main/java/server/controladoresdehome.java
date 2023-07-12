@@ -22,7 +22,8 @@ public class controladoresdehome extends HttpServlet {
         	break;
         case "Sobre":
         	request.getRequestDispatcher("sobre.jsp").forward(request, response);
-        	break;
+        	default:
+        		request.getRequestDispatcher("index.jsp").forward(request, response);
         }
 }
 }
