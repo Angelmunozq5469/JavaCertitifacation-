@@ -5,9 +5,10 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.List;
 
 public class usermodel {
-	public listuser() {
+	public List <user>listuser() {
 		PrintWriter out = response.getWriter();
     	Connection connect = null;
     	Statement stmt = null;
