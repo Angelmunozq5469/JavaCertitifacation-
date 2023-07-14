@@ -1,5 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page import= "java.util.List" %>
+<%@ page import="java.util.List" %>
 <%@ page import="entity.user" %>
 <jsp:include page="/index.jsp" ></jsp:include>
 
@@ -16,14 +16,24 @@
                     <th>Username</th>
                     <th>Email</th>
                 </thead>
-                <%
-                List<user> listuser = (List)request.getAttribute("listuser");
-                for (int i=0;i<listuser.size(); i++){
-                    out.print("<tr>");
-                    out.print("<td>"+listuser.get(i).getUser_ID()+"</td>");
-                    out.print("<td>"+listuser.get(i).getUsername()+"</td>");
-                    out.print("<td>"+listuser.get(i).getEmail()+"</td>");
-                    out.print("</tr>");
+                <% 
+                List<user> listuser = (List<user>) request.getAttribute("listuser");
+                if (listuser != null && !listuser.isEmpty()) {
+                    for (user u : listuser) {
+                %>
+                <tr>
+                    <td><%= u.getUser_ID() %></td>
+                    <td><%= u.getUsername() %></td>
+                    <td><%= u.getEmail() %></td>
+                </tr>
+                <% 
+                    }
+                } else {
+                %>
+                <tr>
+                    <td colspan="3">No users found.</td>
+                </tr>
+                <% 
                 }
                 %>
             </table>
