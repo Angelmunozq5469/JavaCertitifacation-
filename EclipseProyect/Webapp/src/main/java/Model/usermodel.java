@@ -58,7 +58,8 @@ public class usermodel {
         	connect = dataSource.getConnection();
         	String username = newuser.getUsername();
         	String email = newuser.getEmail();
-        	String query = "insert into User (username,email) values(?,?)";
+        	String query = "insert into User (username,email) values(?,?)"; //en caso tal de que se quiera hacer un update
+        	//del usuario es similar pero el query cambia
         	stmtready = (PreparableStatement) connect.prepareStatement(query);
         	return (boolean) stmtready.execute();
         	
