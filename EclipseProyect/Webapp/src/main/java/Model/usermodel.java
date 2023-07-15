@@ -60,6 +60,9 @@ public class usermodel {
         	String email = newuser.getEmail();
         	String query = "insert into User (username,email) values(?,?)"; //en caso tal de que se quiera hacer un update
         	//del usuario es similar pero el query cambia
+        	
+        	//para hacer el delate se debe de hacer un query con la misma informacion de esta forma ejamplo: "delete from user where
+        	//user_ID = ?;"
         	stmtready = (PreparableStatement) connect.prepareStatement(query);
         	return (boolean) stmtready.execute();
         	
