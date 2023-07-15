@@ -10,6 +10,8 @@ import java.util.List;
 
 import javax.sql.DataSource;
 
+import com.mysql.cj.xdevapi.PreparableStatement;
+
 import entity.user;
 
 public class usermodel {
@@ -46,5 +48,27 @@ public class usermodel {
       }
     		
 
-  }
+
+//Aca puedo agg otra funcion en cuanto al manejo de esta data que haga algo similar con otro query
+
+	public boolean adduser(DataSource dataSource, user newuser) {
+		Connection connect = null;
+        PreparableStatement stmtready = null;
+        try {
+        	connect = dataSource.getConnection();
+        	String username = newuser.getUsername();
+        	String email = newuser.getEmail();
+        	String query = "insert into User (username,email) values(?,?)";
+        	stmtready = (PreparableStatement) connect.prepareStatement(query);
+        	return (boolean) stmtready.execute();
+        	
+        	
+        }catch (SQLException e) {
+      		e.printStackTrace();
+      		return false;
+        }
+
+		}
+	
+	}
 
