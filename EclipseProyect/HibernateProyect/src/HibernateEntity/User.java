@@ -10,6 +10,31 @@ import javax.persistence.Column;
 
 public class User {
 	
+	
+	@Id
+	@Column(name="user_ID")
+	int user_ID;
+		
+		
+	@Column(name="username")
+	String username;
+	
+	
+	
+	@Column(name="email")
+	String email;
+
+
+	
+	
+	public User(String username, String email) {
+		
+		this.username = username;
+		this.email = email;
+	}
+
+
+
 	public int getUser_ID() {
 		return user_ID;
 	}
@@ -43,19 +68,4 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
-
-
-	@Id
-	@Column(name="user_ID")
-	int user_ID;
-		
-		
-	@Column(name="username")
-	String username;
-	
-	
-	
-	@Column(name="email")
-	String email;
 }
