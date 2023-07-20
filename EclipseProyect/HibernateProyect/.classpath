@@ -51,7 +51,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/javax.persistence-api-2.2.jar">
+	<classpathentry kind="lib" path="lib/javax.persistence-api-2.2.jar" sourcepath="lib/javax.persistence-api-2.2.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
