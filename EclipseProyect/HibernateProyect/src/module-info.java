@@ -6,4 +6,5 @@
  *
  */
 module HibernateProyect {
+	requires java.persistence;
 }
