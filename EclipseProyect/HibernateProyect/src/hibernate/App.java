@@ -10,9 +10,9 @@ public class App {
 	public static void main (String[]args) {
 		
 		SessionFactory factory = new Configuration()
-				.configure("hibernatecontext.xml")
-				.addAnnotatedClass(User.class)
-				.buildSessionFactory();
+								.configure("hibernatecontext.xml")
+								.addAnnotatedClass(User.class)
+								.buildSessionFactory();
 		Session session = factory.getCurrentSession();
 		
 		try {
@@ -22,7 +22,8 @@ public class App {
 			// start transaction
 			session.beginTransaction();
 			//perform operation 
-			session.save(user);
+			session.save(user); // session.get(User.class,8)
+			//el 8 hace la primary key
 			//Commit the transaction 
 			session.getTransaction().commit();
 			System.out.print("Agregado");			

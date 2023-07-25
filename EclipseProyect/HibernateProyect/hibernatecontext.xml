@@ -1,23 +1,21 @@
 <!DOCTYPE hibernate-configuration PUBLIC
         "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
- 
+
 <hibernate-configuration>
     <session-factory>
- 
         <!-- Connection settings -->
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-              <!-- Sample MySQL URL provided  -->  
-        <property name="connection.url">jdbc:mysql://127.0.0.1:3306/java_db</property>
-        <property name="connection.username">angel</property>
-        <property name="connection.password">Gato123@</property>
-           
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <!-- Sample MySQL URL provided  -->
+        <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/java_db</property>
+        <property name="hibernate.connection.username">angel</property>
+        <property name="hibernate.connection.password">Gato123@</property>
+
         <!-- Show SQL on console -->
-        <property name="show_sql">true</property>
- 
-		<!--Setting Session context model -->
-		<property name="current_session_context_class">thread</property>
- 
+        <property name="hibernate.show_sql">true</property>
+
+        <!-- Setting Session context model -->
+        <property name="hibernate.current_session_context_class">thread</property>
     </session-factory>
 </hibernate-configuration>
