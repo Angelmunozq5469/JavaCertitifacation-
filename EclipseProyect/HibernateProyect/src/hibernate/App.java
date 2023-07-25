@@ -25,6 +25,10 @@ public class App {
 			session.save(user); // session.get(User.class,8)
 			//el 8 hace la primary key
 			//Commit the transaction 
+			
+			//PARA UPDATE USEER
+			((User) session).setUsername("ok");
+			//lo estamos updating 
 			session.getTransaction().commit();
 			System.out.print("Agregado");			
 			
