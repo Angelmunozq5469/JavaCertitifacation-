@@ -25,7 +25,7 @@ public class App {
 			session.save(user); // session.get(User.class,8)
 			//el 8 hace la primary key
 			//Commit the transaction 
-			session.delete(user); // con este eliminamos de la database
+			session.delete(user); // con este eliminamos de la database	
 			
 			//PARA UPDATE USEER
 			((User) session).setUsername("ok");
