@@ -48,6 +48,7 @@ public class App {
 			//}
 			//En este caso es muy similar para crear un Query puesto que podemos alternar
 			//lo que necesitemos por ejemplo: session.createQuety("from users select id_name='3' + "or username like 'angel'"")
+			// Para hacer un Update hago la terminacion del query con ("").executeUpdate();
 			
 			
 			
