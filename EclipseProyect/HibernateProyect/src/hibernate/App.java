@@ -47,7 +47,7 @@ public class App {
 			//	System.out.print(temp);
 			//}
 			//En este caso es muy similar para crear un Query puesto que podemos alternar
-			//lo que necesitemos por ejemplo: session.createQuety("from users select id_name=3")
+			//lo que necesitemos por ejemplo: session.createQuety("from users select id_name='3' + "or username like 'angel'"")
 			
 			
 			
