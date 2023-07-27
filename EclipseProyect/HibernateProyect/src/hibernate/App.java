@@ -1,5 +1,7 @@
 package hibernate;
 
+import java.util.List;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -37,6 +39,13 @@ public class App {
 			
 // estas son funciones basicas que ya tiene preconfiguradas el lenguage 
 //			HQL que es " Hibernate Query lenguage "
+			// por ejemplo si quiero desplegar una lista con hiberante de todos
+			//los usuarios seria
+			
+			List<User> users = session.createQuery("from users").getResultList();
+			for (User temp: users) {
+				System.out.print(temp);
+			}
 			
 			
 			
