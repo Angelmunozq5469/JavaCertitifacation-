@@ -35,7 +35,8 @@ public class App {
 			session.getTransaction().commit();
 			System.out.print("Agregado");			
 			
-			
+// estas son funciones basicas que ya tiene preconfiguradas el lenguage 
+//			HQL que es " Hibernate Query lenguage "
 			
 			
 			
