@@ -42,10 +42,13 @@ public class App {
 			// por ejemplo si quiero desplegar una lista con hiberante de todos
 			//los usuarios seria
 			
-			List<User> users = session.createQuery("from users").getResultList();
-			for (User temp: users) {
-				System.out.print(temp);
-			}
+			//List<User> users = session.createQuery("from users").getResultList();
+			//for (User temp: users) {
+			//	System.out.print(temp);
+			//}
+			//En este caso es muy similar para crear un Query puesto que podemos alternar
+			//lo que necesitemos por ejemplo: session.createQuety("from users select id_name=3")
+			
 			
 			
 			
