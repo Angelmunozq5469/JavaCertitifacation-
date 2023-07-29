@@ -1,3 +1,5 @@
+
+ 
 <!DOCTYPE hibernate-configuration PUBLIC
         "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
@@ -13,7 +15,9 @@
         <property name="hibernate.connection.password">Gato123@</property>
 
         <!-- Show SQL on console -->
-        <property name="hibernate.show_sql">true</property> con la condicion en true podremos mostrar que se ejecuta
+        <property name="hibernate.show_sql">true</property>
+        
+        -// con la condicion en true podremos mostrar que se ejecuta
         en consola.
         
 
