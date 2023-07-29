@@ -14,7 +14,7 @@
 
         <!-- Show SQL on console -->
         <property name="hibernate.show_sql">true</property> con la condicion en true podremos mostrar que se ejecuta
-        en consola. 
+        en consola.
         
 
         <!-- Setting Session context model -->
