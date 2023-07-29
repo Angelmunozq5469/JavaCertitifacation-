@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author angelemilio
- *
- */
-module HibernateProgram {
-}
